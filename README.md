@@ -15,12 +15,12 @@ This is a structure of the template code.
 
 ### doc
 
+This is where you put all the documentations at.
+
+### release
+
 * Pipeline
 * Terraform
-
-## release
-
-
 
 ### Break down into end to end tests
 
