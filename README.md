@@ -53,18 +53,23 @@ KeyValutService
 
 ## Data
 
-
-
+Provide you the basic model to create object table in database about Order, OrderProduct and Product (each with some common parameters)
 
 ## Pipeline
 
-
-
-
+Provide you a publish and resource pipeline, each with three possible Azure Services Template
+```
+aks
+webApp
+WebAppDocker
+```
+Yet, only the azure Service you choose on MSE Portal will actually work for the pipeline Building. The rest are merely templates created. You can also change the Azure Service and change the path under Pipeline to choose the Azure Service you want.
 
 ## Terraform
 
-
+SQL Server:
+WebAppDocker:
+WebAppWindows:
 
 
 
