@@ -65,11 +65,17 @@ WebAppDocker
 ```
 Yet, only the azure Service you choose on MSE Portal will actually work for the pipeline Building. The rest are merely templates created. You can also change the Azure Service and change the path under Pipeline to choose the Azure Service you want.
 
-## Terraform
+Each Azure Service has three template environments.
 
-SQL Server:
-WebAppDocker:
-WebAppWindows:
+```
+dev-pipeline
+prod-pipeline
+test-pipeline
+```
+
+## Terraform Scripts
+
+Likewise, it provides a terraform script to manage Azure on all three Azure Services (aks,WebDocker and WebApp). But only the one you choose will actually be used.
 
 ## Versioning
 
