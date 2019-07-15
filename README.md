@@ -8,11 +8,15 @@ This is a structure of the template code.
 
 ### api
 
-
+* Core api
+* Biz Test
+* Common
+* Data
 
 ### doc
 
-
+* Pipeline
+* Terraform
 
 ## release
 
