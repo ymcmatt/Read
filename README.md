@@ -8,7 +8,7 @@ This is a structure of the template code.
 
 ### api
 
-* Core api
+* .NetCore api
 * Biz Test
 * Common
 * Data
@@ -22,13 +22,16 @@ This is where you put all the documentations at.
 * Pipeline
 * Terraform
 
-## Core API
+## .NetCore API
 
-Explain what these tests test and why
+Provide a basic Template for .NetCore API with an API controller
 
 ```
-Give an example
+[HttpGet]
+[HttpGet("{id}")]
+[HttpPost]
 ```
+Also provide basic configuration file for a .NetCore API project
 
 ## Biz Test
 
@@ -44,6 +47,18 @@ Add additional notes about how to deploy this on a live system
 
 
 ## Data
+
+
+
+
+## Pipeline
+
+
+
+
+
+## Terraform
+
 
 
 
