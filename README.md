@@ -22,7 +22,7 @@ This is where you put all the documentations at.
 * Pipeline
 * Terraform
 
-### Break down into end to end tests
+## Core API
 
 Explain what these tests test and why
 
@@ -30,7 +30,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+## Biz Test
 
 Explain what these tests test and why
 
@@ -38,9 +38,15 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
+## Common
 
 Add additional notes about how to deploy this on a live system
+
+
+## Data
+
+
+
 
 ## Built With
 
@@ -58,9 +64,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
