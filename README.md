@@ -35,10 +35,12 @@ Also provide basic configuration file for a .NetCore API project
 
 ## Biz Test
 
-Explain what these tests test and why
+Provide a basic Business Ordering System Framwork involving various Order Services like
 
 ```
-Give an example
+IList<OrderVM> GetAllOrders();
+OrderVM GetOrderById(int orderId);
+void UpdateOrder(OrderVM orderVm);
 ```
 
 ## Common
