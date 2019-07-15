@@ -33,7 +33,7 @@ Provide a basic Template for .NetCore API with an API controller
 ```
 Also provide basic configuration file for a .NetCore API project
 
-## Biz Test
+## Biz
 
 Provide a basic Business Ordering System Framwork involving various Order Services like
 
@@ -42,11 +42,14 @@ IList<OrderVM> GetAllOrders();
 OrderVM GetOrderById(int orderId);
 void UpdateOrder(OrderVM orderVm);
 ```
-
+and its corresponding test file BizTest
 ## Common
 
-Add additional notes about how to deploy this on a live system
-
+Provide some basic Error Handling functions and Key Vault Services for example
+```
+BizCustomException
+KeyValutService
+```
 
 ## Data
 
