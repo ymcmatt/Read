@@ -8,10 +8,10 @@ This is a structure of the template code.
 
 ### api
 
-* [.NetCore api](#doc)
-* Biz Test
-* [Common](#doc)
-* Data
+* [.NetCore api](#.netcore-api)
+* [Biz Test](#biz)
+* [Common](#common)
+* [Data](#data)
 
 ### doc
 
@@ -19,8 +19,8 @@ This is where you put all the documentations at.
 
 ### release
 
-* Pipeline
-* Terraform
+* [Pipeline](#pipeline)
+* [Terraform](#terraform-scripts)
 
 ## .NetCore API
 
