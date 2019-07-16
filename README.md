@@ -8,7 +8,7 @@ This is a structure of the template code.
 
 ### api
 
-* [.NetCore api] (#.NetCore-api)
+* [.NetCore api] (#.netcore-api)
 * Biz Test
 * Common
 * Data
