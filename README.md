@@ -8,7 +8,7 @@ This is a structure of the template code.
 
 ### api
 
-* [.NetCore api](#.netcore-api)
+* [.NetCore api](#netcore-api)
 * [Biz Test](#biz)
 * [Common](#common)
 * [Data](#data)
@@ -22,7 +22,7 @@ This is where you put all the documentations at.
 * [Pipeline](#pipeline)
 * [Terraform](#terraform-scripts)
 
-## .NetCore API
+## NetCore API
 
 Provide a basic Template for .NetCore API with an API controller
 
