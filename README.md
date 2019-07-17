@@ -2,6 +2,8 @@
 
 This Template is designed for Web API used mostly for micro service.
 
+![structure](https://github.com/ymcmatt/Read/blob/master/Capture.PNG)
+
 ## Clean Structure
 Graph + Link
 This is a structure of the template code.
