@@ -11,7 +11,8 @@ This is a structure of the template code.
 ### api
 
 * [.NetCore api](#netcore-api)
-* [Biz Test](#biz)
+* [Biz](#biz)
+* [Biz Test](#biz-test)
 * [Common](#common)
 * [Data](#data)
 
@@ -26,28 +27,32 @@ This is where you put all the documentations at.
 
 ## NetCore API
 
-Provide a basic Template for .NetCore API with an API controller
+expose web API on .NetCore with API controller
 
 ```
-[HttpGet]
-[HttpGet("{id}")]
-[HttpPost]
+OrderController.cs
 ```
 Also provide basic configuration file for a .NetCore API project
 
 ## Biz
 
-Provide a basic Business Ordering System Framwork involving various Order Services like
+Biz layer contains basic business logic with service interface.
 
 ```
-IList<OrderVM> GetAllOrders();
-OrderVM GetOrderById(int orderId);
-void UpdateOrder(OrderVM orderVm);
+IOrderService.cs
 ```
-and its corresponding test file BizTest
+
+## BizTest
+
+BizTest layer contains unit test for business logic, eg
+
+```
+TestOrderService.cs
+```
+
 ## Common
 
-Provide some basic Error Handling functions and Key Vault Services for example
+Provide some basic Utility functions like Error Handling functions and Key Vault Services 
 ```
 BizCustomException
 KeyValutService
@@ -55,7 +60,8 @@ KeyValutService
 
 ## Data
 
-Provide you the basic model to create object table in database about Order, OrderProduct and Product (each with some common parameters)
+Data layer bases on .NetCore entity framework to connect with SQL server.
+
 
 ## Pipeline
 
