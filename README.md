@@ -12,7 +12,7 @@ This is a structure of the template code.
 
 * [.NetCore api](#netcore-api)
 * [Biz](#biz)
-* [Biz Test](#biz-test)
+* [Biz Test](#biztest)
 * [Common](#common)
 * [Data](#data)
 
