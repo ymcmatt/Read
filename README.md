@@ -23,7 +23,11 @@ This is where you put all the documentations at.
 ### release
 
 * [Pipeline](#pipeline)
-* [Terraform](#terraform-scripts)
+  - resource
+  - publish
+* [Scripts](#terraform-scripts)
+  - powershell
+  - terraform
 
 ## NetCore API
 
