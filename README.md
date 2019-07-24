@@ -54,7 +54,7 @@ BizTest layer contains unit test for business logic, eg
 TestOrderService.cs
 ```
 
-## Common
+## Com
 
 Provide some basic Utility functions like Error Handling functions and Key Vault Services 
 ```
@@ -105,7 +105,7 @@ The template file contains a number of terraform templates under different syste
 
 
 
-#### Terraform Scripts
+#### Powershell Scripts
 
 It provides some basic powershell scripts for developers whom prefer powershell over terraform.
 
