@@ -26,8 +26,8 @@ This is where you put all the documentations at.
   - resource
   - publish
 * [Scripts](#terraform-scripts)
-  - powershell
   - terraform
+  - powershell
 
 ## NetCore API
 
