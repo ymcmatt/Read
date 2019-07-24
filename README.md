@@ -58,8 +58,7 @@ TestOrderService.cs
 
 Provide some basic Utility functions like Error Handling functions and Key Vault Services 
 ```
-login
-storage
+loginstorage
 redis cache
 ```
 
@@ -70,7 +69,7 @@ Data layer bases on .NetCore entity framework to connect with SQL server.
 
 ## Pipeline
 
-# resource pipeline
+#### resource pipeline
 
 Provide you a resource pipeline, each with three possible Azure Services Template
 ```
@@ -88,7 +87,7 @@ prod-pipeline
 test-pipeline
 ```
 
-# publish pipeline
+#### publish pipeline
 
 Provide you a publish pipeline. Structure is exactly the same as resource pipeline.
 
