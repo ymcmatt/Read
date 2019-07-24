@@ -70,7 +70,9 @@ Data layer bases on .NetCore entity framework to connect with SQL server.
 
 ## Pipeline
 
-Provide you a publish and resource pipeline, each with three possible Azure Services Template
+# resource pipeline
+
+Provide you a resource pipeline, each with three possible Azure Services Template
 ```
 aks
 webApp
@@ -85,6 +87,10 @@ dev-pipeline
 prod-pipeline
 test-pipeline
 ```
+
+# publish pipeline
+
+Provide you a publish pipeline. Structure is exactly the same as resource pipeline.
 
 ## Terraform Scripts
 
