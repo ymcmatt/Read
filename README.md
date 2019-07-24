@@ -69,7 +69,7 @@ Data layer bases on .NetCore entity framework to connect with SQL server.
 
 ## Pipeline
 
-#### resource pipeline
+#### Resource Pipeline
 
 Provide you a resource pipeline, each with three possible Azure Services Template
 ```
@@ -87,17 +87,33 @@ prod-pipeline
 test-pipeline
 ```
 
-#### publish pipeline
+
+
+#### Publish Pipeline
 
 Provide you a publish pipeline. Structure is exactly the same as resource pipeline.
 
-## Terraform Scripts
+## Scripts
+
+#### Terraform Scripts
 
 Likewise, it provides a terraform script to manage Azure on all three Azure Services (aks,WebDocker and WebApp). But only the one you choose will actually be used.
 
 The template file contains a number of terraform templates under different system, where you can modify to use according to your needs.
 
 (p.s. main.tf is where the actual function take place. vars.tfvars is only a file that declares certain varaibles used in main.tf)
+
+
+
+#### Terraform Scripts
+
+It provides some basic powershell scripts for developers whom prefer powershell over terraform.
+
+```
+deployDatabase.ps1
+getAzureResource.batch
+updateRepositoryValue.ps1
+```
 
 ## Versioning
 
